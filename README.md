@@ -5,38 +5,39 @@
 
 ### `Install Storybook`
 
--- npx storybook init
--- npm run storybook
+- npx storybook init
+- npm run storybook
 
 ### `Install Tailwindcss`
 
--- npm install -D tailwindcss postcss autoprefixer
--- npx tailwindcss init -p
--- add this argument to content "./src/\*\*/\*.{js,jsx,ts,tsx}"
--- add directives code to index.css
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
--- custom tailwind.config.js as needed
+- npm install -D tailwindcss postcss autoprefixer
+- npx tailwindcss init -p
+- add this argument to content "./src/\*\*/\*.{js,jsx,ts,tsx}"
+- add directives code to index.css
+  @tailwind base;
+  @tailwind components;
+  @tailwind utilities;
+- custom tailwind.config.js as needed
 
 ### `package.json`
 
--- "peerDependencies": {
-"react": ">=16",
-"react-dom": ">=16"
-},
+- "peerDependencies": {
+  "react": ">=16",
+  "react-dom": ">=16"
+  },
 
 ### `tsconfig.json`
 
--- "target": "ESNext",
--- "baseUrl": "src",
--- "module": "CommonJS",
--- "noEmit": false,
--- "outDir": "dist",
--- "declaration": true,
+- "target": "ESNext",
+- "baseUrl": "src",
+- "module": "CommonJS",
+- "noEmit": false,
+- "outDir": "dist",
+- "declaration": true,
 
 \\ outside compiler options
--- "exclude": ["src/stories"]
+
+- "exclude": ["src/stories"]
 
 In the project directory, you can run:
 
