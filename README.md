@@ -1,7 +1,7 @@
 # Getting Started with Create React App
 
--- npx create-react-app@latest [name-app/.] --template typescript
--- npm start
+- npx create-react-app@latest [name-app/.] --template typescript
+- npm start
 
 ### `Install Storybook`
 
