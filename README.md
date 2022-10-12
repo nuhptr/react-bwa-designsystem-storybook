@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Getting Started with react-bwa-designsystem-storybook
 
 - npx create-react-app@latest [name-app/.] --template typescript
 - npm start
